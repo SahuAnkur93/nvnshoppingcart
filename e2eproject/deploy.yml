@@ -24,7 +24,6 @@
       owner: root
       group: root
 
-  - name: start tomcat service
+- name: start tomcat service
     become: true
     service: name=tomcat state=started
-
